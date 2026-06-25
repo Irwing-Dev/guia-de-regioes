@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subpágina - Resistência Quilombola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -30,11 +31,99 @@
         </nav>
     </header>
 
-    <main class="container">
-        <h2>Subpágina: A Rota dos Quilombos no Sul</h2>
-        <p>Esta é uma página de aprofundamento sobre os territórios de resistência negra.</p>
-        <p>No Rio Grande do Sul, o Quilombo do Sopapo e a Comunidade Rincão dos Martimianos são referências de manutenção de tradições orais e resistência urbana e rural. Em Santa Catarina, o Quilombo Invernada dos Alvados mantém vivas as práticas tradicionais de agricultura e celebrações de matriz africana.</p>
-        <a href="../historia.html" class="btn">Voltar para História</a>
+    <main>
+
+        <section class="hero" style="
+            height: 40vh;
+            background:
+            linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+            url('https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1200&q=80')
+            center/cover;">
+            <h1>A Rota dos Quilombos no Sul</h1>
+            <p>
+                Distribuição territorial, ancestralidade e os marcos vivos
+                da resistência negra na região Sul.
+            </p>
+        </section>
+    
+        <section class="container">
+    
+            <div class="tab-grid" style="grid-template-columns: repeat(auto-fit,minmax(300px,1fr));">
+    
+                <div class="agenda-card" style="border-left-color:#e74c3c;">
+                    <h4>
+                        <i class="fas fa-drum"></i>
+                        Rio Grande do Sul
+                    </h4>
+    
+                    <p>
+                        O <strong>Quilombo do Sopapo</strong> e a
+                        <strong>Comunidade Rincão dos Martimianos</strong>
+                        são referências fundamentais na manutenção de
+                        tradições orais, técnicas musicais e resistência
+                        em contextos urbanos e rurais gaúchos.
+                    </p>
+                </div>
+    
+                <div class="agenda-card" style="border-left-color:#3498db;">
+                    <h4>
+                        <i class="fas fa-seedling"></i>
+                        Santa Catarina
+                    </h4>
+    
+                    <p>
+                        O <strong>Quilombo Invernada dos Alvados</strong>
+                        mantém firmes as suas práticas tradicionais de
+                        agricultura familiar, fitoterapia comunitária e
+                        celebrações religiosas de forte matriz africana.
+                    </p>
+                </div>
+    
+                <div class="agenda-card" style="border-left-color:#2ecc71;">
+                    <h4>
+                        <i class="fas fa-hands-holding"></i>
+                        Paraná
+                    </h4>
+    
+                    <p>
+                        O <strong>Quilombo Paiol de Telha</strong>
+                        destaca-se como um dos principais símbolos de
+                        preservação cultural e pioneirismo na luta pelo
+                        reconhecimento e titulação de terras quilombolas.
+                    </p>
+                </div>
+    
+            </div>
+    
+            <div class="video-container">
+    
+                <h3>
+                    <i class="fas fa-images"></i>
+                    Território e Identidade
+                </h3>
+    
+                <img
+                    src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80"
+                    alt="Manifestação cultural e união quilombola"
+                    style="
+                        width:100%;
+                        height:400px;
+                        object-fit:cover;
+                        border-radius:8px;
+                        margin-top:15px;
+                    "
+                >
+            </div>
+    
+            <div style="text-align:center; margin-top:40px;">
+                <a href="../historia.html" class="btn">
+                    <i class="fas fa-arrow-left"></i>
+                    Voltar para História
+                </a>
+            </div>
+    
+        </section>
+    
     </main>
 
     <script src="/script.js"></script>
