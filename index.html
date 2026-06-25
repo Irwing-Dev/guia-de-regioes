@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Cultural do Sul - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="/index.html">Sul Cultural</a></div>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <div class="dropdown-header">
+                        <a href="historia/historia.html">História e Influências</a>
+                        <button class="submenu-toggle">▼</button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="historia/quilombolas/quilombolas.html">Quilombolas</a></li>
+                    </ul>
+                </li>
+                <li><a href="expressoes/expressoes.html">Expressões e Festas</a></li>
+                <li><a href="biografia/biografia.html">Biografias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Tradições, Influências e Resistências do Sul</h1>
+            <p>Descubra a pluralade cultural, a história e as vozes que moldam a entade da região Sul do Brasil.</p>
+            <a href="historia/historia.html" class="btn">Iniciar Jornada</a>
+        </section>
+
+        <section class="container">
+            <h2>A Região Sul</h2>
+            <p>Formada pelos estados do Paraná, Santa Catarina e Rio Grande do Sul, a região Sul do Brasil possui uma localização geográfica estratégica, fazendo fronteira com o Uruguai, Argentina e Paraguai. Essa proximade fronteiriça e seu clima subtropical moldaram uma entade visual e cultural única no país.</p>
+            
+            <div class="carousel-container">
+                <h3>Resumo Visual da entade Sulista</h3>
+                <div class="carousel">
+                    
+                    <div class="carousel-sle active">
+                        <img src="https://static.biologianet.com/2020/09/pampa.jpg" alt="Pampa Gaúcho e tradições rurais">
+                        <div class="carousel-caption">Os Pampas e as tradições rurais</div>
+                    </div>
+
+                    <div class="carousel-sle">
+                        <img src="https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80" alt="Arquitetura de Imigração Enxaimel">
+                        <div class="carousel-caption">Influência da Arquitetura Europeia (Enxaimel)</div>
+                    </div>
+
+                    <div class="carousel-sle">
+                        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80" alt="Festa tradicional e resistência cultural">
+                        <div class="carousel-caption">Celebrações e Resistência Cultural</div>
+                    </div>
+
+                    <button class="carousel-btn prev" onclick="changeSle(-1)" aria-label="Sle anterior">❮</button>
+                    <button class="carousel-btn next" onclick="changeSle(1)" aria-label="Próximo sle">❯</button>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h3>Localização Geográfica</h3>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113645.73359670155!2d-51.10705483863484!3d-27.426767672224096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd55a8e3295c55%3A0xe1045a557c4c929!2sRegi%C3%A3o%20Sul!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" wth="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Alunos</h4>
+                <p style="line-height: 1.6; margin: 0; color: #f1f2f6;">
+                    Gabriel Vicente Ribeiro<br>
+                    Irwing Moraes Mattos<br>
+                    Joao Victor dos Santos Andrade<br>
+                    Lucas Nogueira de Oliveira
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com/gab_zpl" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i> @gab_zpl
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Guia Sul Cultural | Todos os direitos reservados.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

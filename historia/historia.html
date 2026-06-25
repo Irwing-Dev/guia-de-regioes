@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História e Influências - Sul Cultural</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="/index.html">Sul Cultural</a></div>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="/index.html" class="active ">Home</a></li>
+                <li class="dropdown">
+                    <div class="dropdown-header">
+                        <a href="historia.html">História e Influências</a>
+                        <button class="submenu-toggle">▼</button>
+                    </div>
+                    <ul class="submenu">
+                        <li><a href="./quilombolas/quilombolas.html">Quilombolas</a></li>
+                    </ul>
+                </li>
+                <li><a href="../expressoes/expressoes.html" >Expressões e Festas</a></li>
+                <li><a href="../biografia/biografia.html" >Biografias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Povos, Heranças e Marcos de Resistência</h2>
+        <p>A história da Região Sul vai muito além dos livros tradicionais. Ela é fruto do encontro, fricção e resistência de diferentes matrizes étnicas.</p>
+
+        <div class="tabs-container">
+    <div class="tabs-nav">
+        <button class="tab-btn active" onclick="openTab(event, 'indigenas')">
+            <i class="fas fa-feather-alt"></i> 1. Matrizes Indígenas
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'negra')">
+            <i class="fas fa-drum"></i> 2. Presença Negra e Quilombola
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'europeia')">
+            <i class="fas fa-home"></i> 3. Imigração Europeia
+        </button>
+    </div>
+
+    <div class="tabs-content-wrapper">
+        
+        <div id="indigenas" class="tab-content active">
+            <div class="tab-grid">
+                <div class="tab-text">
+                    <h3>Os Donos da Terra</h3>
+                    <p>Antes de qualquer processo colonizador, as nações Guarani, Kaingang e Xokleng já habitavam e manejavam as florestas de Araucárias e os Pampas. Sua herança permanece viva na culinária (como o hábito do chimarrão), nos nomes das cidades e na profunda conexão com a natureza.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.FJ5DWU5MoQ8r3-KGskllxAHaE5?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cultura Indígena">
+                </div>
+            </div>
+        </div>
+
+        <div id="negra" class="tab-content">
+            <div class="tab-grid">
+                <div class="tab-text">
+                    <h3>Ancestralidade e Resistência</h3>
+                    <p>Muitas vezes invisibilizada, a população negra foi fundamental na construção econômica e cultural do Sul, atuando nos campos de gado até as charqueadas. Hoje, dezenas de comunidades quilombolas resistem na região, mantendo viva a ancestralidade através do Maçambique, do Tambor de Sopapo e de territórios ancestrais.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="https://th.bing.com/th/id/OIP.Rrp5-8G9dn7mfkir5dd3MgHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Resistência e Ritmos">
+                </div>
+            </div>
+        </div>
+
+        <div id="europeia" class="tab-content">
+            <div class="tab-grid">
+                <div class="tab-text">
+                    <h3>Tradições da Colônia</h3>
+                    <p>A partir do século XIX, grandes levas de imigrantes alemães, italianos, poloneses e ucranianos ocuparam colônias no interior do Sul. Eles trouxeram técnicas agrícolas familiares, o modelo arquitetônico enxaimel, festividades religiosas e dialetos que até hoje são falados em pequenas comunidades isoladas.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="https://www.diariodocentrodomundo.com.br/wp-content/uploads/2015/09/alem%C3%A3es-600x399.jpg" alt="Arquitetura Enxaimel">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+        <div class="subpage-section">
+    <h3><i class="fas fa-graduation-cap"></i> Conteúdo Complementar</h3>
+    <p class="subpage-intro">Aprofunde os seus conhecimentos explorando a nossa pesquisa detalhada e exclusiva:</p>
+    
+    <div class="subpage-card-container">
+        <a href="quilombolas/quilombolas.html" class="subpage-card">
+            <div class="card-icon-box">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="card-info">
+                <h4>Foco nos Quilombos do Sul</h4>
+                <p>Explore a história, a distribuição territorial e a resistência cultural das comunidades quilombolas na região Sul.</p>
+                <span class="card-link-text">Aceder à Subpágina <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+    </div>
+</div>
+    </main>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Alunos</h4>
+                <p style="line-height: 1.6; margin: 0; color: #f1f2f6;">
+                    Gabriel Vicente Ribeiro<br>
+                    Irwing Moraes Mattos<br>
+                    Joao Victor dos Santos Andrade<br>
+                    Lucas Nogueira de Oliveira
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com/gab_zpl" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i> @gab_zpl
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © <span id="current-year"></span> Guia Sul Cultural | Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
