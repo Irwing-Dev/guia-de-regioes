@@ -203,12 +203,26 @@ nav ul li a.active {
 }
 
 .carousel-slide {
-    display: none;
-    position: relative;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity .6s ease;
+    pointer-events: none;
 }
 
 .carousel-slide.active {
-    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .carousel-slide img {

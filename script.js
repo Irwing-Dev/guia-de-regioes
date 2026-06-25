@@ -41,6 +41,10 @@ document.querySelectorAll('.accordion-header').forEach(button => {
 // Inicializa o primeiro slide do carrossel ao carregar a página
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide);
+
+    setInterval(() => {
+        changeSlide(1);
+    }, 4000);
 });
 // ====== CONTROLE DO NOVO LAYOUT DE ABAS VISUAIS ======
 function openTab(event, tabId) {
